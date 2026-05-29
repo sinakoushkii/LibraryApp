@@ -32,6 +32,8 @@ public class Main {
         System.out.println("------------------------");
         student1.displayBorrowedBooks();
         System.out.println("------------------------");
+        library.updateBook(book3.getId(),"5am clubbbb");
+        System.out.println("------------------------");
         library.displayAllBooks();
 
 
