@@ -27,6 +27,8 @@ public class Main {
         System.out.println("------------------------");
         student1.displayBorrowedBooks();
         System.out.println("------------------------");
+        System.out.println(student1.toString());
+        System.out.println("------------------------");
         library.displayAllBooks();
         library.returnBook(book1,student1);
         System.out.println("------------------------");
